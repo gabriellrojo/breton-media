@@ -25,15 +25,33 @@
 
   <!--[if mso]>
   <style type="text/css">
+    /* Somente Outlook desktop clássico (engine Microsoft Word) */
     .outlook-light {
       font-family: "Calibri Light", Calibri, Arial, sans-serif !important;
       font-weight: 300 !important;
+    }
+
+    .outlook-title {
+      line-height: 25px !important;
+      mso-line-height-rule: exactly;
+    }
+
+    .outlook-copy {
+      line-height: 21px !important;
+      mso-line-height-rule: exactly;
+    }
+
+    .outlook-product-name {
+      line-height: 18px !important;
+      mso-line-height-rule: exactly;
     }
 
     .outlook-serif {
       font-family: "Bodoni MT", "Times New Roman", serif !important;
       font-style: italic !important;
       font-weight: 400 !important;
+      line-height: 45px !important;
+      mso-line-height-rule: exactly;
     }
   </style>
   <![endif]-->
@@ -266,7 +284,7 @@
           <tr>
             <td
               align="center"
-              class="outlook-light"
+              class="outlook-light outlook-title"
               style="
                 font-family:
                   'Segoe UI Light',
@@ -317,7 +335,7 @@
           <tr>
             <td
               align="center"
-              class="outlook-light pad-x copy"
+              class="outlook-light outlook-copy pad-x copy"
               style="
                 font-family:
                   'Segoe UI Light',
@@ -374,7 +392,7 @@
           <tr>
             <td
               align="center"
-              class="outlook-light"
+              class="outlook-light outlook-product-name"
               style="
                 font-family:
                   'Segoe UI Light',
@@ -515,7 +533,7 @@
           <tr>
             <td
               align="center"
-              class="outlook-light pad-x copy"
+              class="outlook-light outlook-copy pad-x copy"
               style="
                 font-family:
                   'Segoe UI Light',
